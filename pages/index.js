@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { UtilButton } from '../components/util-button/UtilButton'
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <ul>
         <li>
           <Link href="/registration"><a>Registration</a></Link>
+          <UtilButton label="test" style="primary"></UtilButton>
         </li>
       </ul>
     </nav>
