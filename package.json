@@ -1,0 +1,27 @@
+{
+  "name": "cherrypicked",
+  "version": "1.0.0",
+  "description": "a react-flavored rebuild of Cherrypicked.io",
+  "main": "index.js",
+  "scripts": {"dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voyagerstudio/react-cherry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voyagerstudio/react-cherry/issues"
+  },
+  "homepage": "https://github.com/voyagerstudio/react-cherry#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
