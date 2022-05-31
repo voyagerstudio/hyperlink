@@ -4,7 +4,7 @@ import { UtilButton } from '../components/util-button/UtilButton'
 function HomePage() {
   return (
 <div id="root">
-    <h1>Cherrypicked</h1>
+    <h1>Hyperlink</h1>
     <nav>
       <ul>
         <li>
