@@ -1,7 +1,7 @@
 {
-  "name": "cherrypicked",
+  "name": "hyperlink",
   "version": "1.0.0",
-  "description": "a react-flavored rebuild of Cherrypicked.io",
+  "description": "tHe fRoNt pAge oF THe iNTerNet",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voyagerstudio/react-cherry.git"
+    "url": "git+https://github.com/voyagerstudio/hyperlink.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/voyagerstudio/react-cherry/issues"
+    "url": "https://github.com/voyagerstudio/hyperlink/issues"
   },
-  "homepage": "https://github.com/voyagerstudio/react-cherry#readme",
+  "homepage": "https://github.com/voyagerstudio/hyperlink#readme",
   "dependencies": {
     "next": "^12.1.6",
     "react": "^18.1.0",

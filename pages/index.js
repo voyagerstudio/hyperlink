@@ -3,7 +3,7 @@ import Link from 'next/link'
 function HomePage() {
   return (
 <div id="root">
-    <h1>Cherrypicked</h1>
+    <h1>Hyperlink</h1>
     <nav>
       <ul>
         <li>
