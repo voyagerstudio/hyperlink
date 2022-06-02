@@ -1,10 +1,12 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import reactDom from "react-dom";
+import styles from './UtilButton.module.css'
+
 
 export function UtilButton({label, style, size}) {
   return (
-    <button type="button" className={`btn btn--${style} btn--${size}`}>{label}</button>
+    <button type="button" className={`${styles.btn} btn--${style} ${styles.btn}--${size} }`}>{label}</button>
   )
 }
 
