@@ -8,11 +8,11 @@
     border-radius: 4px;
     font-size: 18px;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
     background-color: #292A2D;
 }
 .btn:focus {
-    background: #292A2D;
     outline: none;
     box-shadow: 0 0 0 3px #FB6A2C;
     text-decoration: underline;
