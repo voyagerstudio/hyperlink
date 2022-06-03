@@ -22,9 +22,13 @@
     color: #FFFFFFB2;
     background-color: #292A2D;
 }
-.btn:disabled {
+.btn:disabled,
+.btn:aria-disabled {
 color: #FFFFFF80;
 background-color: #292A2DCC;
+}
+.btn:aria-disabled {
+    opacity: .1;
 }
 
 .btn--lg {
