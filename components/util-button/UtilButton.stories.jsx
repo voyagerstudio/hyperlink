@@ -95,6 +95,19 @@ Default.args = {
   size: 'medium',
   style: 'primary'
 };
+export const Disabled = Template.bind({});
+Disabled.parameters = {
+  docs: {
+    description: {
+      story: 'This is the Disabled button after the default button has been disabled.'
+    }
+  }
+}
+Disabled.args = {
+  label: 'Primary',
+  size: 'medium',
+  style: 'primary'
+};
 
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args

@@ -5,9 +5,8 @@ import styles from './UtilButton.module.css'
 
 
 export function UtilButton({label, style, size}) {
-  const [disable, setDisable] = React.useState(false);
   return (
-    <button disabled={disable} onClick={() => setDisable(true)} type="button" className={`${styles.btn} btn--${style} ${styles.btn}--${size}`}>{label}</button>
+    <button type="button" className={`${styles.btn} btn--${style} ${styles.btn}--${size}`}>{label}</button>
   )
 }
 
