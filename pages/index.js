@@ -10,7 +10,7 @@ function HomePage() {
       <ul>
         <li>
           <Link href="/registration"><a>Registration</a></Link>
-          <UtilButton className={styles.testBtn} label="button text" size="lg" style="primary" ></UtilButton>
+          <UtilButton aria-disabled="true" className={styles.testBtn} label="button text" size="lg" style="primary" ></UtilButton>
         </li>
       </ul>
     </nav>
