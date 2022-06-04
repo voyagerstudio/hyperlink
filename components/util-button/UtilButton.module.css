@@ -1,0 +1,36 @@
+
+.btn {
+    border: none;
+    padding: .4em;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #292A2D;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #FB6A2C;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.btn:active{
+    color: #FFFFFFB2;
+    background-color: #292A2D;
+}
+.btn:disabled,
+.btn:aria-disabled {
+color: #FFFFFF80;
+background-color: #292A2DCC;
+}
+.btn:aria-disabled {
+    opacity: .1;
+}
+
+.btn--lg {
+    font-size: 4rem;
+}
